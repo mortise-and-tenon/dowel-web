@@ -6,7 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "道沃Dowel",
-  tagline: "Dowel，简洁高效的 AI 应用平台",
+  tagline: "Dowel，简洁高效的 AI 智能体平台",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -71,7 +71,7 @@ const config: Config = {
           position: "left",
           label: "使用帮助",
         },
-        { to: "/docs/releases", label: "发布版本", position: "left" },
+        { to: "/docs/releases", label: "版本发布", position: "left" },
         {
           href: "https://github.com/mortise-and-tenon/Dowel",
           position: "right",

@@ -1,14 +1,13 @@
-import type { ReactNode } from "react";
-import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
+import Layout from "@theme/Layout";
+import clsx from "clsx";
+import type { ReactNode } from "react";
 
-import styles from "./index.module.css";
-import { CarouselImage } from "../types/carousel";
 import ImageCarousel from "../components/ImageCarousel/ImageCarousel";
+import { CarouselImage } from "../types/carousel";
+import styles from "./index.module.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -22,9 +21,9 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro"
+            to="/docs/download"
           >
-            💻 马上开始
+            💻 立即下载
           </Link>
         </div>
       </div>
@@ -87,7 +86,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="最懂中小开发者的的前端模板"
+      description="简洁高效的 AI 智能体平台"
     >
       <HomepageHeader />
       <main>
